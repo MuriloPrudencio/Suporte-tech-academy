@@ -1,4 +1,4 @@
-Projeto Suporte Tech Academy, criado para dar auxilio para aos alunos que tenham
+Projeto Suporte Tech Academy, criado para dar auxilio aos alunos que tenham
 dúvidas nos modulos, quiz, projetos práticos.
 
 Estrutura do projetos
