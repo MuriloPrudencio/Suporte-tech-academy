@@ -106,11 +106,15 @@ section.cards section.card.shadow {
   }
 
   section.cards section.card span {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   section.cards section.card button {
     padding: 0.8rem 1.3rem;
+  }
+
+  section.cards section.card button a {
+    font-size: 1.1rem;
   }
 
   section.cards section.card:last-child {
