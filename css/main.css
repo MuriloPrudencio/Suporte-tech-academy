@@ -51,7 +51,7 @@ article.apresentacao {
   margin-top: 10rem;
   margin-bottom: 15rem;
   gap: 2rem;
-  color: #ffff;
+  color: #fff;
 }
 
 article.apresentacao header.apresentacao-title {
@@ -99,11 +99,11 @@ article.apresentacao button.apresentacao-btn {
 
 article.apresentacao button.apresentacao-btn:hover {
   background-color: #93fca8;
-  box-shadow: 2px 2px 4px #ffff;
+  box-shadow: 2px 2px 4px #fff;
 }
 
 article.apresentacao button.apresentacao-btn a {
-  color: #000000;
+  color: #000;
   font-weight: bold;
   font-size: 18px;
 }
@@ -117,7 +117,7 @@ footer {
 }
 
 footer p {
-  color: #ffff;
+  color: #fff;
   font-size: clamp(0.8em, 1em + 1vw, 1.2em);
   font-weight: 400;
 }
