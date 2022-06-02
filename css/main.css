@@ -57,7 +57,7 @@ article.apresentacao {
 article.apresentacao header.apresentacao-title {
   text-align: center;
   font-weight: 400;
-  font-size: clamp(0.8em, 1em + 1vw, 1.8em);
+  font-size: clamp(1em, 1em + 1vw, 1.8em);
 }
 
 article.apresentacao header.apresentacao-title b {
@@ -72,7 +72,7 @@ article.apresentacao h1.apresentacao-title-hiden {
 
 article.apresentacao div.apresentacao-text p {
   margin-top: 3rem;
-  font-size: clamp(0.9em, 1em + 1vw, 1.3em);
+  font-size: clamp(1em, 1em + 1vw, 1.3em);
   font-weight: 400;
   width: 50vw;
 }
