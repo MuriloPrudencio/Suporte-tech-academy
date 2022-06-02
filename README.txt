@@ -53,7 +53,7 @@ OBS: usada somente no "suporte.html"
 
 Link externo ..
 
--> Usando google fonte para padronizar o projeto somente com um modelo de letra...
+-> Usando google font para padronizar o projeto somente com um modelo de letra...
 
 Configuração do Formsubmit..
 
