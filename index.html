@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="StartSe tech academy teachers">
+    <meta name="author" content="Murilo Prudêncio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/favicon .png">
+
+    <!--Link google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Antic+Slab&family=
+    Inconsolata&family=Source+Serif+Pro:ital,wght@1,300&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <!--Lib AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
+    <!--Link da seção de cards-->
+    <link rel="stylesheet" href="./css/cards.css">
+    <!--Link principal-->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Tech Academy</title>
+</head>
+<body >
+    <!--Menu navegacional-->
+    <header class="menu">
+
+        <figure>
+            <img src="./img/logo.png" alt="StartSe Tech Academy">
+        </figure>        
+        <nav class="menu-nav">
+            <ul>
+                <li class="menu-itens"><a href="./index.html">Home</a></li>
+                <li class="menu-itens"><a href="./suporte.html">Suporte</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--Conteudo pricipal, apresentação, section linguagens de programação e section tutores-->
+    <main>
+
+        <!--Apresentação da pagina-->
+
+        <article class="apresentacao">
+
+            <header class="apresentacao-title">
+                <h1>Suporte <b>< </b>tech<b> / </b>academy <b>></b></h1>
+                <h1 class="apresentacao-title-hiden"><b>< </b>Tech<b> / </b>academy <b>></b></h1>
+            </header>
+            <div class="apresentacao-text">
+                <p>Iremos dar suporte a todas as dúvidas de nossos alunos, 
+                a respeito dos modulos, aulas, desafios propostos e quiz.</p><br>
+            </div>
+            <button class="apresentacao-btn"><a href="./suporte.html">Suporte</a></button>            
+
+        </article>
+
+        <!--Apresentação das lingugens dividido em 2 sections Front end e Back end-->
+
+        <article>
+
+            <header class="title-cards">
+                <h2>Linguagens <b>< </b>tech<b> / </b>academy <b>></b></h2>
+                <p><b>"</b> Sempre codifique como se o cara que acabasse mantendo o seu código fosse um psicopata
+                    violento que sabe onde você mora <b>"</b>.</p>
+            </header>
+
+            <!-- linguagens de Front end-->
+
+            <section class="cards" data-aos="fade-down" >
+                <section class="card shadow">
+                    <div class="icon">
+                        <img src="./img/linguagens/html-5.png" alt="HTML é uma abreviação de Hypertext Markup Language">
+                    </div>
+        
+                    <span>
+                          HTML é uma abreviação de Hypertext Markup Language, ou seja, Linguagem de Marcação de Hipertexto.
+                          Resumindo, o HTML é uma linguagem usada para a publicação de conteúdo (texto, imagens, vídeos, 
+                          áudio etc.) na web
+                    </span>
+                    <button><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Documentação</a></button>
+                </section>
+                <section class="card shadow">
+                    <div class="icon">
+                        <img src="./img/linguagens/css-3.png" alt="css-3">
+                    </div>
+                    <span>
+                        O CSS tem a tarefa de separar o conteúdo do site de sua apresentação visual, alterando elementos
+                        como cor do texto, fonte e espaçamento entre blocos, assim como todo o aspecto estético de uma página.
+                    </span>
+                    <button><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">Documentação</a></button>
+                </section>
+                <section class="card shadow">
+                    <div class="icon">
+                        <img src="./img/linguagens/js.png" alt="Linguagem de programação JavaScript">
+                    </div>
+                    
+                    <span>
+                        JavaScript é uma linguagem de programação que permite a você implementar itens complexos em
+                        páginas web. Toda vez que uma página da web faz mais do que simplesmente mostrar a você 
+                        informação estática. Mostrando conteúdo que se atualiza em um intervalo de tempo.
+                    </span>
+                    <button><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Documentação</a></button>
+                </section>
+            </section>
+
+            <!--linguagens de Back end-->
+
+            <section class="cards" data-aos="fade-down" >
+
+                <section class="card shadow">
+                    <div class="icon">
+                        <img src="./img/linguagens/nodejs.png" alt="Node.js ambiente de execução Javascript server-side">
+                    </div>        
+                    <span>
+                        O Node.js pode ser definido como um ambiente de execução Javascript server-side.
+                        Isso significa que com o Node.js é possível criar aplicações Javascript para rodar como uma 
+                        aplicação standalone em uma máquina, não dependendo de um browser para a execução, como 
+                        estamos acostumados.
+                    </span>
+                    <button><a href="https://cloud.google.com/nodejs/docs?hl=pt-br">Documentação</a></button>
+                </section>
+                <section class="card shadow">
+                    <div class="icon">
+                        <img src="./img/linguagens/sql-server.png" alt="Banco de dados relacional Sql">
+                    </div>
+                    <span>
+                        SQL Server é um SGDB, isso é, um Sistema Gerenciador de Banco de Dados (SGDB) desenvolvido e 
+                        mantido pela Microsoft.  Como qualquer SGDB, trata-se de um software que cuida do armazenamento, 
+                        atualização e recuperação de dados computacionais, incluindo os relacionamentos.
+                    </span>
+                    <button><a href="https://docs.microsoft.com/pt-br/sql/sql-server/?view=sql-server-ver16">Documentação</a></button>
+                </section>
+                <section class="card shadow">
+                    <div class="icon">
+                        <img src="./img/linguagens/mongo.png" alt="Banco de dados não relacional Nosql">
+                    </div>
+                    
+                    <span>
+                        NoSQL é um termo genérico que representa os bancos de dados não relacionais. 
+                        Uma classe definida de banco de dados que fornecem um mecanismo para armazenamento 
+                        e recuperação de dados que são modelados de formas diferentes das relações tabulares 
+                        usadas nos bancos de dados relacionais.
+                    </span>
+                    <button><a href="https://tipscode.com.br/mongodb-guia-completo-para-iniciante">Documentação</a></button>
+                </section>
+            </section>
+
+        </article>
+
+        <!--Tutores-->
+
+        <article>
+
+            <header class="title-cards">
+                <h2>Tutores <b>< </b>tech<b> / </b>academy <b>></b></h2>
+    
+                <p><b>"</b> Ninguém caminha sem aprender a caminhar, sem aprender a fazer o caminho caminhando, refazendo
+                e retocando o sonho pelo qual se pôs a caminhar. <b>"</b></p>
+    
+            </header>
+
+            <section class="cards" data-aos="fade-down" >
+
+
+                <section class="card shadow">
+                    <div class="icon">
+                        <img src="./img/tutores/gabriel.png" alt="Grabiel Software Engineer, mobile, swift & flutter.">
+                    </div>
+                    <h3>Gabriel Custódio</h3> 
+                    <p>Software Engineer, mobile, swift & flutter.</p>       
+                    <span>
+                        Sou um profissional versátil que atua na área de Tecnologia. Nessa área, o que busco 
+                        sempre é desenvolver minhas capacidades de solucionar problemas. Gosto de ter conhecimento 
+                        do todo, de saber bem sobre várias áreas, e acredito que isso possibilita um aprendizado 
+                        mais sólido tanto em especificidades quanto em generalidades.
+                    </span>
+                    <div class="icon">
+                        <img src="./img/linkedin.png" alt="Linkedin Gabriel Custódio">
+                        <a></a>
+                    </img>
+                    </div>
+                </section>
+                <section class="card shadow">
+                    <div class="icon">
+                        <img src="./img/tutores/fernanda.png" alt="Fernanda Araújo Partner & Head of Tech Academy ">
+                    </div>
+                    <h3>Fernanda Araújo</h3>
+                    <p>Partner & Head of Tech Academy.</p>
+                    <span>
+                        Um pessoa apaixonada por empreendedorismo, pró-ativa, responsável, sempre em busca de 
+                        conhecimento. Gosto de ajudar novos empreendedores principalmente quem está iniciando e 
+                        fomentar cada vez mais a cultura. Sinto um prazer imenso em ver algo que estou ajudando a 
+                        construir e por isso cada vez mais determinada aos meus objetivos.
+                    </span>
+                    <div class="icon">
+                        <img src="./img/linkedin.png" alt="Linkedin Fernanda Araújo">
+                            <a></a>
+                        </img>
+                    </div>
+                </section>
+                <section class="card shadow">
+                    <div class="icon">
+                        <img src="./img/tutores/rafael.png" alt="Rafael do Prado Ribeiro Partner & Head of Engineering at StartSe, Co-founder at Gempe">
+                    </div>
+                    <h3>Rafael do Prado Ribeiro</h3>
+                    <p>Partner & Head of Engineering at StartSe, Co-founder at Gempe.</p>
+                    <span>                        
+                        Co-founder at Gempe, empresa especializada no desenvolvimento de aplicativos,  tendo no seu portfólio
+                        marketplace e aplicações web.
+                        Lider do time de desenvolvimento da StartSe, empresa voltada para aulas no setor de negócios e tecnologia. Professor e 
+                        tutor da StartSe tech academy.
+                    </span> 
+                    <div class="icon">
+                        <img src="./img/linkedin.png" alt="Linkedin  Rafael do Prado Ribeiro ">
+                            <a></a>
+                        </img>
+                    </div>           
+                </section>
+            </section>
+
+        </article>          
+
+    </main>
+
+    <!--Rodapé-->
+    <footer>
+        <p><b>< </b>Tech<b> / </b>academy <b>> &copy; 2022</p>
+    </footer>
+
+    <!--Script lib AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <!--Script animação-->  
+    <script src="./js/animate.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="StartSe tech academy teachers">
+    <meta name="author" content="Murilo Prudêncio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/favicon .png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Antic+Slab&family=
+    Inconsolata&family=Source+Serif+Pro:ital,wght@1,300&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/suporte.css">
+    <!--Link principal-->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Tech Academy</title>
+</head>
+<body >
+    
+     <!--Menu navegacional-->
+     <header class="menu">
+
+        <figure>
+            <img src="./img/logo.png" alt="StartSe Tech Academy" width="190">
+        </figure>        
+        <nav class="menu-nav">
+            <ul>
+                <li class="menu-itens"><a href="./index.html">Home</a></li>
+                <li class="menu-itens"><a href="./suporte.html">Suporte</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="container" >
+
+        <section class="container-forms">
+            <header class="container-title">
+                <h1>Envie sua mensagem</h1>
+            </header>
+    
+            <form id="form" class="form" action="https://formsubmit.co/muriloprudencio01@gmail.com" method="POST">
+                <!--Inputs da lib formsubimt-->
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_autoresponse" 
+                value="Recebemos sua mensagem, obrigado pelo contato logo responderemos !">
+                <!---->
+
+                <div class="form-control">
+                    <label for="username">Nome completo </label>
+                    <input type="text" id="username" name="name" placeholder="Nome completo" required>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>O nome de usuário é obrigátorio.</small>
+                </div>
+    
+                <div class="form-control">
+                    <label for="email">E-mail </label>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Por favor, insira um email válido.</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="subject">Assunto </label>
+                    <input type="text" id="subject" name="subject" placeholder="Assunto da mensagem" required>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Por favor, insira algum conteudo.</small>
+                </div>
+    
+                <div class="form-control">
+                    <label for="text">Digite a mensagem </label>
+                    <textarea name="message" rows="20" placeholder="Mensagem" required></textarea>       
+                    
+                </div>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+
+   
+    <footer>
+        <p><b>< </b>Tech<b> / </b>academy <b>> &copy; 2022</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/3a24908422.js" crossorigin="anonymous"></script>
+</body>
+</html>
