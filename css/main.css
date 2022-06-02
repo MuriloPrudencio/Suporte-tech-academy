@@ -148,6 +148,10 @@ footer b {
     visibility: visible;
   }
 
+  article.apresentacao div.apresentacao-text p {
+    width: 80vw;
+  }
+
   article.apresentacao button.apresentacao-btn {
     margin-right: 33vw;
   }
