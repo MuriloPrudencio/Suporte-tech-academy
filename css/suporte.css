@@ -36,6 +36,7 @@ main.container section.container-forms form.form div.form-control {
 
 main.container section.container-forms form.form div.form-control label {
   color: #000;
+  font-size: 1.1 rem;
   font-weight: 500;
   display: inline-block;
   margin-bottom: 5px;
