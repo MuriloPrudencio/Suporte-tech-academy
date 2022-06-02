@@ -94,7 +94,8 @@ section.cards section.card.shadow {
   }
 
   section.cards section.card {
-    max-width: 350px;
+    max-width: 450px;
+    min-height: 600px;
     margin-left: 0;
     margin-bottom: 3rem;
   }
