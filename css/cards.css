@@ -67,7 +67,7 @@ section.cards section.card span {
 
 section.cards section.card button {
   background: linear-gradient(90deg, #000, #61eb7c);
-  box-shadow: 2px 2px 4px -2px #0025f8;
+  box-shadow: 2px 2px 4px -2px #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   border: none;

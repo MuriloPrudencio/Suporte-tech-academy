@@ -76,7 +76,7 @@ main.container section.container-forms form.form div.form-control small {
 main.container section.container-forms form.form button {
   background-color: #61eb7c;
   border: 2px solid #61eb7c;
-  box-shadow: 2px 2px 4px -2px #0025f8;
+  box-shadow: 2px 2px 4px -2px #000;
   color: #000;
   font-weight: 500;
   font-size: 1rem;
