@@ -36,7 +36,7 @@ body button {
   border: none;
   border-radius: 10px;
   background: #61eb7c;
-  box-shadow: 2px 2px 4px #0025f8;
+  box-shadow: 2px 2px 4px -2px #0025f8;
   cursor: pointer;
 }
 
