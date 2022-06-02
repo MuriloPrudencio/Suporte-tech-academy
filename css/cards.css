@@ -81,6 +81,7 @@ section.cards section.card button:hover {
 
 section.cards section.card button a {
   color: #fff;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -106,6 +107,10 @@ section.cards section.card.shadow {
 
   section.cards section.card span {
     font-size: 1rem;
+  }
+
+  section.cards section.card button {
+    padding: 0.8rem 1.3rem;
   }
 
   section.cards section.card:last-child {
