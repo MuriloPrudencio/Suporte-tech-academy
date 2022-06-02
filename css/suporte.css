@@ -78,7 +78,7 @@ main.container section.container-forms form.form button {
   border: 2px solid #61eb7c;
   color: #000;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1rem;
   padding: 5px;
   width: 8rem;
   border-radius: 10px;
