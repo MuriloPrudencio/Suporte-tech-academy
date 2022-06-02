@@ -123,3 +123,10 @@ main.container section.container-forms form.form div.form-control.error {
 main.container section.container-forms form.form div.form-control.error small {
   visibility: visible;
 }
+
+@media screen and (max-width: 1050px) {
+  main.container section.container-forms {
+    width: 80vw;
+    height: 90vh;
+  }
+}
