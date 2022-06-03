@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -106,6 +110,16 @@ article.apresentacao button.apresentacao-btn a {
   color: #000;
   font-weight: bold;
   font-size: 18px;
+}
+
+/*Estilizando o voltar ao topo*/
+
+div a img.voltar-ao-topo {
+  width: 30px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
 /*estilizando o footer*/

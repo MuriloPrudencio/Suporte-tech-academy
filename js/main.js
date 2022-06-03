@@ -1,4 +1,4 @@
-/*Scrip para a validação do nome, e e-mail */
+/*Funções para as validações do nome, e e-mail */
 
 const form = document.getElementById("form");
 const userName = document.getElementById("username");
