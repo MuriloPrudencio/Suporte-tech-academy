@@ -114,7 +114,7 @@ article.apresentacao button.apresentacao-btn a {
 
 /*Estilizando o voltar ao topo*/
 
-div a img.voltar-ao-topo {
+section a img.voltar-ao-topo {
   width: 30px;
   cursor: pointer;
   position: fixed;
