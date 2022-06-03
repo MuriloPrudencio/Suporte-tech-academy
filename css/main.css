@@ -118,8 +118,8 @@ section a img.voltar-ao-topo {
   width: 30px;
   cursor: pointer;
   position: fixed;
-  bottom: 25px;
-  right: 25px;
+  bottom: 2rem;
+  right: 1.8rem;
 }
 
 /*estilizando o footer*/
@@ -168,5 +168,10 @@ footer b {
 
   article.apresentacao button.apresentacao-btn {
     margin-right: 33vw;
+  }
+
+  section a img.voltar-ao-topo {
+    bottom: 2rem;
+    right: 0rem;
   }
 }
